@@ -9,7 +9,7 @@ import time
 import os
 
 # === 配置区域 ===
-INPUT_CSV = r'input\outlook账号_part_1.csv'  # 原始输入文件
+INPUT_CSV = r'input\outlook账号_part_2.csv'  # 原始输入文件
 TEMP_RETRY_CSV = r'output\temp_retry.csv'  # 第一轮失败存放处（复活赛的输入）
 FINAL_FAILED_CSV = r'output\failed.csv'  # 最终失败文件
 SUCCESS_CSV = r'output\success.csv'  # 成功文件

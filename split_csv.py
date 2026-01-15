@@ -2,7 +2,7 @@ import os
 import shutil
 
 
-def split_to_input_folder(input_file, rows_per_file=30):
+def split_to_input_folder(input_file, rows_per_file=15):
     """
     将原始 CSV 切分并存入 ./input/ 文件夹，完成后删除原文件
     """
@@ -75,4 +75,4 @@ def split_to_input_folder(input_file, rows_per_file=30):
 
 
 if __name__ == "__main__":
-    split_to_input_folder('outlook账号.csv', rows_per_file=30)
+    split_to_input_folder('outlook账号.csv', rows_per_file=15)
